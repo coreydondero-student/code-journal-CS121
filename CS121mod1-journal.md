@@ -1,6 +1,7 @@
 # Module 1 Notes
 Notes for module 1 of CS121, Welcome to CS1. 
 
+## Intro to Java
 ### Programs
 A **program** is a series of instructions executed by a computer.
 
