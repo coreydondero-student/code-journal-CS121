@@ -39,13 +39,13 @@ Whitespace is blank space. It helps keep things readable. Companies and teams us
 - End output with a new line.
 
 ### Errors and Warnings
-** Syntax error (Compile-time error) **: A violation of the rules of the programming language (ex. forgetting the semicolon at end of statement).
+**Syntax error (Compile-time error)**: A violation of the rules of the programming language (ex. forgetting the semicolon at end of statement).
 
-** Unclear error messages **: Error messages are often unclear or misleading. Look to previous lines to find real source of error.
+**Unclear error messages**: Error messages are often unclear or misleading. Look to previous lines to find real source of error.
 
-** Logic errors (bugs) **: When a program compiles fine but has a flaw, this is called a logic error or bug.
+**Logic errors (bugs)**: When a program compiles fine but has a flaw, this is called a logic error or bug.
 
-** Compiler warnings **: Compiler still works but there is a possible logic error. Java can be run as `jvac -Xlint yourfile.java` to display all recommended warnings, otherwise we might miss some.
+**Compiler warnings**: Compiler still works but there is a possible logic error. Java can be run as `jvac -Xlint yourfile.java` to display all recommended warnings, otherwise we might miss some.
 
 In general, when multiple errors are generated, start at the first one.
 
