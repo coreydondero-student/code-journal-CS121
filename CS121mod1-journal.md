@@ -13,7 +13,7 @@ Variables hold varying values that are set by the user or another part of the pr
 ### Intput
 Input commonly comes from a keyboard, file, web form or app. The following code enables a program to get input `import java.util.Scanner;`
 
-A **Scanner** is a text parser that can get numbers, words or phrases from an input source. Use `Scanner scnr = new Scanner(System.in);` to get input from a keyboard.
+A **Scanner** is a text parser that can get numbers, words or phrases from an input source. Use `scnr.nextInt();` to get input from a keyboard.
 
 ### Output
 `System.out.print` supports output. Output is achieved with `System.out.print("desired text")`. Text in the double quotes is called a **string literal**
@@ -21,3 +21,9 @@ A **Scanner** is a text parser that can get numbers, words or phrases from an in
 `System.out.println("")` prints and starts a new line.
 
 To output multiple items use `+`: `System.out.print("sometext" + variable);`
+
+## Comments
+Comments are added by the programmer to help understand the code. Comments are ignored by the compiler.
+
+**Single-line Comment**: starts with //. Includes anything on the line after //.
+**Multi-line Comment (Block Comment)**: starts with /* and ends with */. all text between the symbols is part of the comment. 
