@@ -51,6 +51,25 @@ In general, when multiple errors are generated, start at the first one.
 
 Compile and run frequently.
 
+### Computers and Programs
+**Switches**: Allow or prohibit flow of electricity based on it's position. Engineers treat positive voltage as "1's" and zero voltage as "0's". These are known as **bits** (binary digits). **Circuits** are connections of switches.
 
+**Processors**: processors execute a list of desired calculations, or **instructions**.
 
+**Memory**: A circuit that can store bits at addressed locations.
 
+### Writing computer programs
+**High-level language**: Human readable, translated to machine instructions with a **compiler**. 
+
+**Assembly language**: Human-readable processor instructions.
+
+**Machine instructions**: 1's and 0's. Readable by the computer. This is what the computer runs in the background.
+
+**Executable program**: a series of machine instructions. 
+
+### The Computer
+**Input/output devices**: screen and keyboard, for example.
+
+**Storage**: A disk that stores files and other data.
+
+**Random Access Memory (RAM)**: 
