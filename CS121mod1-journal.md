@@ -81,10 +81,10 @@ Compile and run frequently.
 
 ## 1.8 Language History
 
--1978: Brian Kernighan & Dennis Ritchie of Bell Labs publish book on **C**, named after another language called B. C was dominant in 80's and 90's.
--1985: Bjarne Sroustrupp publishes book describing **C++**. C++ is based on C with added constructs to support object-oriented programming. The ++ part refers to the ++ operator in C that increases a number.
--1991: James Gosling begin developing JAVA language with the goal of creating a language whose exec. can be ported to different processors.
--1995: Java is released.
+- 1978: Brian Kernighan & Dennis Ritchie of Bell Labs publish book on **C**, named after another language called B. C was dominant in 80's and 90's.
+- 1985: Bjarne Sroustrupp publishes book describing **C++**. C++ is based on C with added constructs to support object-oriented programming. The ++ part refers to the ++ operator in C that increases a number.
+- 1991: James Gosling begin developing JAVA language with the goal of creating a language whose exec. can be ported to different processors.
+- 1995: Java is released.
 
 Java was initially developed for appliances like TV's but then web browsers started to support it, increasing its popularity.
 Java and JavaScript are entirely distinct.
