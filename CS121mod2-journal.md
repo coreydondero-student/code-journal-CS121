@@ -28,3 +28,9 @@ Notes for module 2 of CS121, Data and Expressions
  - Minimize abbreviations.
  - Meaningful name that describes items purpose
  - but not too long.
+
+## 2.4 Arithmetic Expressions
+**Expression**: any individual item or combination of items, like variables, literals, operators, and parentheses, that evaluates to a value, like `2 * (x + 1)`.  
+**Literal**: a specific value in code like 2.
+**Operator**: a symbol that performs a built-in calculation, like +.
+**Evaluate**: Expressions evaluate to a value, which replaces the expression. Order of operation is followed: (), -, */%, +-, left to right.  
