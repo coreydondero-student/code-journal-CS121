@@ -20,7 +20,7 @@ Notes for module 2 of CS121, Data and Expressions
  - Digits
  - Case sensetive
  - Start with letter, underscore or dollar sign, but _ and $ should be avoided in identifiers.
- - Can't be a reserved word.
+ - Can't be a reserved word.  
 **Identifier Styles**  
  - Camel Case, Lower Camel Case
  - Underscore seperated
