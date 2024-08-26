@@ -12,7 +12,7 @@ Notes for module 2 of CS121, Data and Expressions
 **Integer Literal**: A number that appears in an expression, like 8 or 1.  
 **Initializing Variables**: Sometimes an initial value is assigned when declared. Ex: `int numCars = 5`  
 
-## Identifiers  
+## 2.3 Identifiers  
 **Identifier**: Name, given by the programmer, of a variable or method. 
  - Sequence of letters
  - Underscores
@@ -21,7 +21,7 @@ Notes for module 2 of CS121, Data and Expressions
  - Case sensetive
  - Start with letter, underscore or dollar sign, but _ and $ should be avoided in identifiers.
  - Can't be a reserved word.
-**Identifier Styles**
+**Identifier Styles**  
  - Camel Case, Lower Camel Case
  - Underscore seperated
  - Minimize abbreviations.
