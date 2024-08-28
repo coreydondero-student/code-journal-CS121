@@ -55,4 +55,30 @@ Notes for module 2 of CS121, Data and Expressions
  - If at least one floating point is included, floating point division is used and so decimals are used.
  - For integer division, the second operand of / or % must never be 0, because division by 0 is mathematically undefined.
  - A **divide-by-zero** error occurs at runtime if a divisor is 0, causing a program to terminate. A divide-by-zero error is an example of a **runtime error**, a severe error that occurs at runtime and causes a program to terminate early.
-**Modulo (%)**: evaluates the remainder of the division of two integer operands. Ex: 23 % 10 is 3.  
+**Modulo (%)**: evaluates the remainder of the division of two integer operands. Ex: 23 % 10 is 3.
+
+## 2.11 Type Conversions  
+A calculation will sometimes mix double and integer types. A **Type Conversion** is necessary. One type is converted to another.  
+An **Implicit Conversion** is an automatic conversion that the compiler makes for common conversions like int -> double.  
+ - For an arithmetic operator like + or *, if either operand is a double, the other is automatically converted to double, and then a floating-point operation is performed.  
+ - For assignments, the right side type is converted to the left side type if the conversion is possible without loss of precision.
+ - int-to-double conversion is straightforward: 25 becomes 25.0.  
+ - double-to-int conversion may lose precision, so is not automatic.  
+**Type Cast**: explicitly convert one data type to another.  Ex: If myIntVar is 7, then `(double)myIntVar` converts int 7 to double 7.0.
+
+## 2.12 Binary  
+**Binary Number**: Base 2, stored as 1's and 0's.  
+**Decimal Number**: Base 10, stored as 0-9.  
+**Example**: The compiler would convert the decimal number 212 to the binary number 11010100, meaning 1*128 + 1*64 + 0*32 + 1*16 + 0*8 + 1*4 + 0*2 + 0*1 = 212, and then store that binary number in memory.  
+
+## 2.13 Characters  
+Java does not have a method for getting one character from input. Instead, the following sequence can be used: `myChar = scnr.next().charAt(0);`  
+Characters are stored internally as numbers. The compiler translates for you.  
+
+## 2.14 Strings  
+**String**: character sequence.  
+**String Literal**: character sequence surrounded by quotes.
+**Whitespace Character**: Space, tabs, newline. `userString = scnr.next()` skips first whitespace and then stops at the next whitespace.  
+`userString = scnr.next()` excludes whitespace. `userString = scnr.nextLine()` gets whitespace.  
+
+
