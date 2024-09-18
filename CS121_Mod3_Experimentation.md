@@ -40,4 +40,32 @@ The program adds whitespace for the extra characters.
 **Result:** An error `Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 11`  
 
 # Random Experimentation (RandomNumbers.java)
+**Try running three times as-is**  
+**Result:** random numbers each time.  
 
+**Instantiate the Random object using a seed value as shown below**  
+`generator = new Random(12345);`  
+**Result:** same numbers on each run.  
+
+# Math Experimentation (Quadratic.java)
+**Modify the program to support reading double values from the user by replacing the nextInt() methods calls with nextDouble() as shown below.**
+`System.out.print("Enter the coefficient of x squared: ");
+a = scan.nextDouble();
+System.out.print("Enter the coefficient of x: ");
+b = scan.nextDouble();
+System.out.print("Enter the constant: ");
+c = scan.nextDouble();`  
+**Result:** Type mismatch error, won't compile. Can't put a double value in an int variable.  
+
+**Modify the program by casting the value returned by nextDouble() to an int as shown below. Run the program with the values 2.5, 16.8, 3.2 for a, b and c respectively**  
+`System.out.print("Enter the coefficient of x squared: ");
+a = (int) scan.nextDouble();
+System.out.print("Enter the coefficient of x: ");
+b = (int) scan.nextDouble();
+System.out.print("Enter the constant: ");
+c = (int) scan.nextDouble();`  
+**Result:**  same as before modification, because even though we have a double value, we cast it ot int, so the decimals are lost.  
+
+**Remove the cast and change the declaration for a, b and c from int to double as shown below. Run the program with the values 2.5, 16.8, 3.2 for a, b and c respectively.**  
+`double a, b, c;`  
+**Result:** Now we have correct numbers because we used double the whole way through.
