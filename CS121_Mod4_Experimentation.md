@@ -43,3 +43,19 @@ System.out.println("Value of point after doubling: " + myPoint);\
 Were the values of x and y inside the Point object modified by the pointDoubler() method even though it doesn't have a return value? What is the difference between passing in an object as a argument to a method vs passing in a primitive data type such as an int?  
 
 The values in Poitn were modified because we passed the argument as an object instead of a primitive data type.  
+
+# ArrayList Experimentation
+## 1. 
+**Add the following to MyRainbow.java**
+```
+rainbow.add(Color.GREEN);
+rainbow.add(Color.BLUE);
+rainbow.add(Color.BLACK);
+```
+**What happened?**  
+As expected the list is 3 longer, so 6. New colors were added in the order which the code ran.  
+## 2.
+**Add a non color object to the array**  
+`rainbow.add("Purple");`  
+**What happened?**  
+Code did not compile. Stack trace says: "The method add(Color) in the type ArrayList<Color> is not applicable for the arguments (String)"  
