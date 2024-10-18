@@ -59,3 +59,42 @@ As expected the list is 3 longer, so 6. New colors were added in the order which
 `rainbow.add("Purple");`  
 **What happened?**  
 Code did not compile. Stack trace says: "The method add(Color) in the type ArrayList<Color> is not applicable for the arguments (String)"  
+## 3. 
+Change the rainbow.remove(0) line to `rainbow.remove(199)`.  
+**What happened?**
+```
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 199 out of bounds for length 3
+        at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+        at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+        at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+        at java.base/java.util.Objects.checkIndex(Objects.java:361)
+        at java.base/java.util.ArrayList.remove(ArrayList.java:504)
+        at MyRainbow.main(MyRainbow.java:33)
+```
+# File parsing experimentation
+## 1.
+**Modify the display code in FileEcho.java like so:**  
+```
+int lineNumber = 1;
+while (fileScan.hasNextLine()) {
+    String line = fileScan.nextLine();
+
+    System.out.printf("%5d | %s\n",lineNumber,line);
+
+    lineNumber++;
+}
+```
+**What happened?**  
+the code prepended with a line number. it seems to match the line numbers in my java files. Works on the Jimmy Buffett Bill of Rights files.  
+## 2. 
+**Modify the existing loop in CSVParser.java to prepend line numbers**
+```
+    /* 3. Create a loop to read each line from the Scanner */
+    int lineNumber = 1;
+    while(bobsScanner.hasNextLine()) {
+        String line = bobsScanner.nextLine();
+
+        /* 4. Print each line */
+        System.out.printf("Processing Line %3d: %s\n",lineNumber,line);
+        lineNumber++;
+```
